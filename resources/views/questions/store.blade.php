@@ -9,7 +9,7 @@
                     <div class="d-flex alingn-items-center">
                         <h2>Ask Questions</h2>
                         <div class="ml-auto">
-                            <a href="{{ route('questions.index') }}" class="btn btn-outline-secondary">Volver a Question</a>
+                            <a href="#" class="btn btn-outline-secondary">Volver a Question</a>
                         </div>
                     </div>
                 </div>
