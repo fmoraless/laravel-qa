@@ -10,6 +10,15 @@ use Illuminate\Http\Request;
 class QuestionController extends Controller
 {
     /**
+     * 
+     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => ['index', 'show']]);
+    }
+
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -83,6 +92,8 @@ class QuestionController extends Controller
      */
     public function update(AskQuestionRequest $request, Question $question)
     {
+        $this->authorize("update", $question);
+
         $question->update($request->only('title', 'body'));
 
         return \redirect('/questions')->with('success', 'Su pregunta se ha actualizado');
@@ -96,6 +107,8 @@ class QuestionController extends Controller
      */
     public function destroy(Question $question)
     {
+        $this->authorize("delete", $question);
+
         $question->delete();
         
         return redirect('/questions')->with('success', 'Pregunta ha sido eliminada');
