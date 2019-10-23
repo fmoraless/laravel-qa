@@ -32,6 +32,12 @@ class User extends Authenticatable
         return '#';
     }
 
+    /** RELACION CON LAS RESPUESTAS (Answer Model) */
+    public function answers()
+    {
+        return $this->hasMany(Answer::class);
+    }
+
 
     /**
      * The attributes that should be hidden for arrays.
