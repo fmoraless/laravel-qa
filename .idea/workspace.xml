@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b113e145-a2dd-4a32-a791-70d6d9394968" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572141073382</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Algunas traducciones en index de respuestas.">
+      <created>1572141138386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572141138386</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fundion eliminar respuesta de una pregunta.">
+      <created>1572142107387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572142107387</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +244,8 @@
     <MESSAGE value="Policy para Respuestas (Answer)" />
     <MESSAGE value="Autorizar los Policies de Answer y Question en Auth Provider" />
     <MESSAGE value="Formulario para editar respuestas de las preguntas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulario para editar respuestas de las preguntas." />
+    <MESSAGE value="Algunas traducciones en index de respuestas." />
+    <MESSAGE value="Fundion eliminar respuesta de una pregunta." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fundion eliminar respuesta de una pregunta." />
   </component>
 </project>
