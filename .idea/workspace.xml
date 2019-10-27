@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b113e145-a2dd-4a32-a791-70d6d9394968" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +177,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571801875532</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Funcion Edit y Update de controlador Respuestas (Answer)">
+      <created>1572140895019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572140895019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Policy para Respuestas (Answer)">
+      <created>1572140946984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572140946984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Autorizar los Policies de Answer y Question en Auth Provider">
+      <created>1572141015576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572141015576</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Formulario para editar respuestas de las preguntas.">
+      <created>1572141073382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572141073382</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +226,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
+    <MESSAGE value="Funcion Edit y Update de controlador Respuestas (Answer)" />
+    <MESSAGE value="Policy para Respuestas (Answer)" />
+    <MESSAGE value="Autorizar los Policies de Answer y Question en Auth Provider" />
+    <MESSAGE value="Formulario para editar respuestas de las preguntas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulario para editar respuestas de las preguntas." />
   </component>
 </project>
