@@ -4,6 +4,10 @@
     <list default="true" id="b113e145-a2dd-4a32-a791-70d6d9394968" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +20,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="laravel-qa" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,7 +176,10 @@
       <workItem from="1571960722123" duration="8461000" />
       <workItem from="1572007814182" duration="1210000" />
       <workItem from="1572065636670" duration="1482000" />
-      <workItem from="1572205666857" duration="10496000" />
+      <workItem from="1572205666857" duration="10823000" />
+      <workItem from="1572307121816" duration="5091000" />
+      <workItem from="1572397957134" duration="2884000" />
+      <workItem from="1572470329206" duration="10514000" />
     </task>
     <task id="LOCAL-00001" summary="Workspace">
       <created>1571801875532</created>
@@ -206,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572141073382</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Corrección Str_slug obsoleto.">
+      <created>1572240478810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572240478810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +248,7 @@
     <MESSAGE value="Policy para Respuestas (Answer)" />
     <MESSAGE value="Autorizar los Policies de Answer y Question en Auth Provider" />
     <MESSAGE value="Formulario para editar respuestas de las preguntas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulario para editar respuestas de las preguntas." />
+    <MESSAGE value="Corrección Str_slug obsoleto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección Str_slug obsoleto." />
   </component>
 </project>

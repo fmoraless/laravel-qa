@@ -65,4 +65,29 @@ class Question extends Model
 
     }
 
+    public function favorites()
+    {
+        return $this->belongsToMany(User::class, 'favorites')->withTimestamps();
+        /*
+         * Se usa el segundo argumento, cuando no utilizamos la convención para relaciones
+         * muchos muchos que tiene laravel, que es ordenar las 2 tablas alfabeticamente y en sigular. sería question_user. Por esta razón y ocmo hemos usuado
+         * la tabla 'favorites', debemos indicar como 2° parametro.
+        */
+    }
+
+    public function isFavorited()
+    {
+        return $this->favorites()->where('user_id', auth()->id())->count() > 0;
+    }
+
+    public function getIsFavoritedAttribute()
+    {
+        return $this->isFavorited();
+    }
+
+    public  function getFavoritesCountAttribute()
+    {
+        return $this->favorites->count();
+    }
+
 }

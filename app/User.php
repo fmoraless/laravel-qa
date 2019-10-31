@@ -63,4 +63,15 @@ class User extends Authenticatable
         $size = 32;
         return $grav_url = "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?s=" . $size;
     }
+
+    //un usuario puede tener mas de una pregunta como favorita
+    public function favorites()
+    {
+        return $this->belongsToMany(Question::class, 'favorites')->withTimestamps();
+        /*
+         * Se usa el segundo argumento, cuando no utilizamos la convención para relaciones
+         * muchos muchos que tiene laravel, que es ordenar las 2 tablas alfabeticamente y en sigular. sería question_user. Por esta razón y ocmo hemos usuado
+         * la tabla 'favorites', debemos indicar como 2° parametro.
+        */
+    }
 }
