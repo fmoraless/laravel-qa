@@ -91,5 +91,5 @@ class Question extends Model
     {
         return $this->favorites->count();
     }
-    
+
 }
