@@ -22,6 +22,8 @@ class User extends Authenticatable
         'name', 'email', 'password',
     ];
 
+    protected $appends = ['url', 'avatar'];
+
     public function questions()
     {
         return $this->hasMany(Question::class);

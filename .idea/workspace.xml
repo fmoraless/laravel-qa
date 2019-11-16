@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b113e145-a2dd-4a32-a791-70d6d9394968" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shared/_accept.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shared/_accept.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +184,10 @@
       <workItem from="1572925853214" duration="28000" />
       <workItem from="1572925953260" duration="16760000" />
       <workItem from="1573169420779" duration="5442000" />
-      <workItem from="1573253028538" duration="16180000" />
+      <workItem from="1573253028538" duration="17967000" />
+      <workItem from="1573474415477" duration="6849000" />
+      <workItem from="1573867363538" duration="19000" />
+      <workItem from="1573867431336" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="Workspace">
       <created>1571801875532</created>
@@ -224,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572240478810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Corrección best Answer (mejor respuesta).">
+      <created>1573441760622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573441760622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +264,7 @@
     <MESSAGE value="Autorizar los Policies de Answer y Question en Auth Provider" />
     <MESSAGE value="Formulario para editar respuestas de las preguntas." />
     <MESSAGE value="Corrección Str_slug obsoleto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección Str_slug obsoleto." />
+    <MESSAGE value="Corrección best Answer (mejor respuesta)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección best Answer (mejor respuesta)." />
   </component>
 </project>

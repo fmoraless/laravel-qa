@@ -17,6 +17,8 @@ class Question extends Model
         'title', 'body',
     ];
 
+    protected $appends = ['created_date'];
+
     //La pregunta pertenece a un usuario
     public function user()
     {
