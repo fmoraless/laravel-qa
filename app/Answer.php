@@ -12,7 +12,7 @@ class Answer extends Model
       'body', 'user_id'
     ];
 
-    protected $appends = ['created_date'];
+    protected $appends = ['created_date', 'body_html'];
 
     /** RELACION CON LAS PREGUNTAS (Question Model) */
     public function question()
