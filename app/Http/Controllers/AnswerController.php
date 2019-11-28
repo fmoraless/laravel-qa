@@ -80,6 +80,13 @@ class AnswerController extends Controller
 
         $answer->delete();
 
+        if (request()->expectsJson())
+        {
+            return response()->json([
+               'message' =>  "Su respuesta ha sido removida"
+            ]);
+        }
+
         return back()->with('success', 'Su respuesta ha sido removida');
     }
 }
